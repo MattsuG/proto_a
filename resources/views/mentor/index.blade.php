@@ -50,7 +50,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="add"><i class="fa fa-plus"></i> <span class="nav-label">トーク作成</span></a>
+                    <a href="add"><i class="fa fa-bullhorn"></i> <span class="nav-label">トーク作成</span></a>
                 </li>
                 <li>
                     <a href="#"><i class="fa fa-pencil"></i> <span class="nav-label">アカウント編集</span><span class="fa arrow"></span></a>
@@ -75,7 +75,7 @@
                         <span class="m-r-sm text-muted welcome-message">トーク一覧ページへようこそ</span>
                     </li>
                     <li>
-                        <a href="/">
+                        <a  class="dropdown-toggle count-info" href="/">
                             <i class="fa fa-home"></i>
                         </a>
                     </li>
@@ -178,7 +178,7 @@
 
                     <li>
                         <a href="login.html">
-                            <i class="fa fa-sign-out"></i> Log out
+                            <i class="fa fa-sign-out"></i> ログアウト
                         </a>
                     </li>
                 </ul>
@@ -200,7 +200,7 @@
         </div>
 
 
-        <div class="row">
+        <div class="row white-bg">
             <form role="search" class="navbar-form" action="search_results.html">
                 <div class="form-group">
                     <select class="form-control" name="search_category">
@@ -210,11 +210,11 @@
                 </div>
             </form>
         </div>
-        <div class="row">              
+        <div class="row white-bg">              
             <div class="col-sm-4 pricing-box pricing-box-best wow fadeInDown">
                 <div class="pricing-box-inner">
                     <div class="pricing-box-price">
-                        <img src="img/headphones.jpg" alt="">
+                    <img src="img/headphones.jpg" alt="">
                     </div>
                     <h3>タイトル</h3>
                     <h4>概要を記入。文章が長くなった場合はどうなるか。文章が長くなった場合はどうなるか文章が長くなった場合はどうなるか。</h4>
@@ -222,7 +222,7 @@
                         <ul>
                             <li>カテゴリ</li>
                             <li>価格</li>
-                            <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
+                            <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i>メッセージ</button></a></li>                           
                         </ul>
                     </div>
                 </div>
@@ -230,7 +230,7 @@
             <div class="col-sm-4 pricing-box pricing-box-best wow fadeInDown">
                 <div class="pricing-box-inner">
                     <div class="pricing-box-price">
-                        <img src="img/headphones.jpg" alt="">
+                    <img src="img/headphones.jpg" alt="">
                     </div>
                     <h3>タイトル</h3>
                     <h4>概要を記入。文章が長くなった場合はどうなるか。文章が長くなった場合はどうなるか文章が長くなった場合はどうなるか。</h4>
@@ -238,7 +238,7 @@
                         <ul>
                             <li>カテゴリ</li>
                             <li>価格</li>
-                            <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
+                            <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i>メッセージ</button></a></li>                           
                         </ul>
                     </div>
                 </div>
@@ -246,7 +246,7 @@
             <div class="col-sm-4 pricing-box pricing-box-best wow fadeInDown">
                 <div class="pricing-box-inner">
                     <div class="pricing-box-price">
-                        <img src="img/headphones.jpg" alt="">
+                    <img src="img/headphones.jpg" alt="">
                     </div>
                     <h3>タイトル</h3>
                     <h4>概要を記入。文章が長くなった場合はどうなるか。文章が長くなった場合はどうなるか文章が長くなった場合はどうなるか。</h4>
@@ -254,7 +254,7 @@
                         <ul>
                             <li>カテゴリ</li>
                             <li>価格</li>
-                            <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
+                            <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i>メッセージ</button></a></li>                           
                         </ul>
                     </div>
                 </div>
@@ -262,7 +262,7 @@
             <div class="col-sm-4 pricing-box pricing-box-best wow fadeInDown">
                 <div class="pricing-box-inner">
                     <div class="pricing-box-price">
-                        <img src="img/headphones.jpg" alt="">
+                    <img src="img/headphones.jpg" alt="">
                     </div>
                     <h3>タイトル</h3>
                     <h4>概要を記入。文章が長くなった場合はどうなるか。文章が長くなった場合はどうなるか文章が長くなった場合はどうなるか。</h4>
@@ -270,7 +270,7 @@
                         <ul>
                             <li>カテゴリ</li>
                             <li>価格</li>
-                            <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
+                            <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i>メッセージ</button></a></li>                           
                         </ul>
                     </div>
                 </div>
@@ -278,7 +278,7 @@
             <div class="col-sm-4 pricing-box pricing-box-best wow fadeInDown">
                 <div class="pricing-box-inner">
                     <div class="pricing-box-price">
-                        <img src="img/headphones.jpg" alt="">
+                    <img src="img/headphones.jpg" alt="">
                     </div>
                     <h3>タイトル</h3>
                     <h4>概要を記入。文章が長くなった場合はどうなるか。文章が長くなった場合はどうなるか文章が長くなった場合はどうなるか。</h4>
@@ -286,39 +286,7 @@
                         <ul>
                             <li>カテゴリ</li>
                             <li>価格</li>
-                            <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 pricing-box pricing-box-best wow fadeInDown">
-                <div class="pricing-box-inner">
-                    <div class="pricing-box-price">
-                        <img src="img/headphones.jpg" alt="">
-                    </div>
-                    <h3>タイトル</h3>
-                    <h4>概要を記入。文章が長くなった場合はどうなるか。文章が長くなった場合はどうなるか文章が長くなった場合はどうなるか。</h4>
-                    <div class="pricing-box-features">
-                        <ul>
-                            <li>カテゴリ</li>
-                            <li>価格</li>
-                            <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 pricing-box pricing-box-best wow fadeInDown">
-                <div class="pricing-box-inner">
-                    <div class="pricing-box-price">
-                        <img src="img/headphones.jpg" alt="">
-                    </div>
-                    <h3>タイトル</h3>
-                    <h4>概要を記入。文章が長くなった場合はどうなるか。文章が長くなった場合はどうなるか文章が長くなった場合はどうなるか。</h4>
-                    <div class="pricing-box-features">
-                        <ul>
-                            <li>カテゴリ</li>
-                            <li>価格</li>
-                            <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
+                            <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i>メッセージ</button></a></li>                           
                         </ul>
                     </div>
                 </div>
@@ -327,7 +295,7 @@
         <div class="row">
             <div class="footer">                       
                 <div>
-                    <strong>Copyright</strong> Example Company &copy; 2014-2015
+                    <strong>Copyright</strong> TIMELAG Inc. &copy; 2016
                 </div>
             </div>
         </div>
