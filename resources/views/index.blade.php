@@ -33,7 +33,7 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="top-navbar-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a class="scroll-link" href="#features">inQについて</a></li>
+							<li><a class="scroll-link" href="#features">＋ヒトについて</a></li>
 							<li><a class="" href="/mentor/">トーク検索</a></li>
 							<li><a class="" href="/login">ログイン</a></li>
 							<li><a class="btn btn-link-2" href="join/signup">サインアップ</a></li>
@@ -47,10 +47,10 @@
                 	
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 text">
-                            <h1 class="wow fadeInLeftBig">inQ</h1>
+                            <h1 class="wow fadeInLeftBig">+ヒト</h1>
                             <div class="description wow fadeInLeftBig">
                             	<p>
-	                            個人の持つ進路情報をマッチング
+	                            情報集めにヒトを足していく
                             	</p>
                             </div>
                             <div class="subscribe wow fadeInUp">
@@ -79,9 +79,6 @@
 	                	<div class="col-sm-12 top-social wow fadeInUp">
 	                		<a href="#"><i class="fa fa-facebook"></i></a> <span class="divider-2"></span> 
 							<a href="#"><i class="fa fa-twitter"></i></a> <span class="divider-2"></span> 
-							<a href="#"><i class="fa fa-google-plus"></i></a> <span class="divider-2"></span> 
-							<a href="#"><i class="fa fa-instagram"></i></a> <span class="divider-2"></span> 
-							<a href="#"><i class="fa fa-pinterest"></i></a>
 	                	</div>
 	                </div>
                     
@@ -93,10 +90,10 @@
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-sm-12 how-it-works section-description wow fadeIn">
-	                    <h2>inQへようこそ</h2>
+	                    <h2>+ヒトへようこそ</h2>
 	                    <p>
-	                    inQ(インク)は、進路に関わる情報を自分のネットワークを越えて個人から入手したりできるサービスです。
-						<br>サービスを利用して直接話すことで、個人が経験した実践的な情報を効率良く聞くことができます。</p>
+	                    ＋ヒトは、進路に関わる情報を自分のネットワークを越えて個人から入手できるようにするマッチングサービスです。
+						<br>直接話すことで、個人が経験した実践的な情報を効率良く聞くことができます。</p>
 	                    <div class="divider-1 wow fadeInUp"><span></span></div>
 	                </div>
 	            </div>
@@ -443,7 +440,6 @@
                     	<p>
 	                    	<a href="#"><i class="fa fa-facebook"></i></a> 
 							<a href="#"><i class="fa fa-twitter"></i></a>  
-							<a href="#"><i class="fa fa-instagram"></i></a> 							
 						</p>
                     </div>
 	            </div>
