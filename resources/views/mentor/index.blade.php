@@ -17,10 +17,8 @@
         <div class="sidebar-collapse">
             <ul class="nav metismenu" id="side-menu">
                 <li class="nav-header">
-                    <div class="dropdown profile-element"> 
-                        <span>
-                            <img alt="image" class="img" src="{{{asset('/assets/img/logo.jpg')}}}" />
-                        </span>                      
+                    <div class="dropdown profile-element">                         
+                            <a href="/"><img alt="image" class="img" src="{{{asset('/assets/img/plus.png')}}}" width="25px" height="50px" /></a>
                     </div>
                     <div class="dropdown profile-element"> 
                         <span>
@@ -48,7 +46,7 @@
                             </ul>
                     </div>
                     <div class="logo-element">
-                        +ヒト
+                        <a href="/"><img alt="image" class="img" src="{{{asset('/assets/img/plus.png')}}}" width="25px" height="50px" /></a>
                     </div>
                 </li>
                 <li>
