@@ -50,7 +50,7 @@
                             <h1 class="wow fadeInLeftBig">+ヒト</h1>
                             <div class="description wow fadeInLeftBig">
                             	<p>
-	                            情報集めにヒトを足していく
+	                            ヒトからの情報を足していく
                             	</p>
                             </div>
                             <div class="subscribe wow fadeInUp">
@@ -77,6 +77,7 @@
 	                
 	                <div class="row">
 	                	<div class="col-sm-12 top-social wow fadeInUp">
+                            <span class="divider-2"></span>
 	                		<a href="#"><i class="fa fa-facebook"></i></a> <span class="divider-2"></span> 
 							<a href="#"><i class="fa fa-twitter"></i></a> <span class="divider-2"></span> 
 	                	</div>
@@ -140,7 +141,7 @@
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-sm-12 pricing section-description wow fadeIn">
-	                    <h2>人気のトーク</h2>
+	                    <h2>新しいトーク</h2>
 	                </div>
 	            </div>
 
@@ -156,7 +157,7 @@
                                 <ul>
                                     <li>カテゴリ</li>
                                     <li>価格</li>
-                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
+                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i>メッセージ</button></a></li>                           
                                 </ul>
                             </div>
                         </div>
@@ -173,7 +174,7 @@
                                 <ul>
                                     <li>カテゴリ</li>
                                     <li>価格</li>
-                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
+                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i>メッセージ</button></a></li>                          
                                 </ul>
                             </div>
                         </div>
@@ -190,7 +191,7 @@
                                 <ul>
                                     <li>カテゴリ</li>
                                     <li>価格</li>
-                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
+                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i>メッセージ</button></a></li>                              
                                 </ul>
                             </div>
                         </div>
@@ -207,7 +208,7 @@
                                 <ul>
                                     <li>カテゴリ</li>
                                     <li>価格</li>
-                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
+                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i>メッセージ</button></a></li>                            
                                 </ul>
                             </div>
                         </div>
@@ -224,7 +225,7 @@
                                 <ul>
                                     <li>カテゴリ</li>
                                     <li>価格</li>
-                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
+                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i>メッセージ</button></a></li>                           
                                 </ul>
                             </div>
                         </div>
@@ -241,7 +242,7 @@
                                 <ul>
                                     <li>カテゴリ</li>
                                     <li>価格</li>
-                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
+                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i>メッセージ</button></a></li>                              
                                 </ul>
                             </div>
                         </div>
@@ -258,7 +259,7 @@
                                 <ul>
                                     <li>カテゴリ</li>
                                     <li>価格</li>
-                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
+                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i>メッセージ</button></a></li>                           
                                 </ul>
                             </div>
                         </div>
@@ -347,7 +348,7 @@
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-sm-12 testimonials section-description wow fadeIn">
-	                    <h2>コンセプト</h2>
+	                    <h2>ユーザーの声</h2>
 	                    <div class="divider-1 wow fadeInUp"><span></span></div>
 	                </div>
 	            </div>
@@ -365,9 +366,7 @@
 	                				</div>
 	                				<div class="testimonial-text">
 		                                <p>
-		                                	"留学か、進学か、就職か迷っている。そんなときに、
-											→それぞれの進路を歩んだヒトたち"<br>
-		                                	<a href="#">wwwwwwwwwwwwww, wwwwww.co.uk</a>
+		                                	"ブログでは手に入らない生の情報が聞けてよかったです"<br>
 		                                </p>
 	                                </div>
 	                			</div>
@@ -380,8 +379,7 @@
 	                				</div>
 	                				<div class="testimonial-text">
 		                                <p>
-		                                	"進路選択で失敗した経験、どの様に取り戻していったか、その辺りを聞きたいときに、→失敗談を語れるヒトたち"<br>
-		                                	<a href="#">xxxxxxxxxxx, xxxxxxxxxxxx.com</a>
+		                                	"進路選択で失敗した経験、どの様に取り戻していったか、そんなセンシティブな話は他ではなかなか聞けなかったので利用しました。"<br>
 		                                </p>
 	                                </div>
 	                			</div>
@@ -394,8 +392,7 @@
 	                				</div>
 	                				<div class="testimonial-text">
 		                                <p>
-		                                	"転職か、今の会社に残るのか、迷ったときに、→同じ悩みを持っていたヒトたち"<br>
-		                                	<a href="#">yyyyyyyyyy, yyyyyy.co.uk</a>
+		                                	"実践した本人の話は、説得力がありました。"<br>
 		                                </p>
 	                                </div>
 	                			</div>
@@ -422,21 +419,23 @@
 	        <div class="container">
 	        	<div class="row">
 	        		<div class="col-sm-4 footer-about wow fadeInUp">
-	        			<h4>About Us</h4>
+	        			<h4>+ヒトについて</h4>
 	        			<p>
-	        				具体性、現場感、これまでに話すこのとなかった人からの情報。		
+                            <a>よくある質問</a><br>
+                            <a>使い方</a><br>
+                            <a>運営会社</a><br>		
 	        			</p>
 	        			<p>
                     		<a class="scroll-link" href="#about-us">Learn More</a>
                     	</p>
                     </div>
 	        		<div class="col-sm-4 footer-contact-info wow fadeInDown">
-	        			<h4>Contact Info</h4>
+	        			<h4>コンタクト</h4>
 	                	<p><i class="fa fa-map-marker"></i> xxxxxxxxxxxxx</p>
-	                	<p><i class="fa fa-envelope"></i> Email: <a href="xxxx@gmail.com">xxxxxxxxx@gmail.</a></p>	             
+	                	<p><i class="fa fa-envelope"></i> Email: <a href="xxxx@gmail.com">xxxxxxxxx@timelag.com</a></p>	             
                     </div>
                     <div class="col-sm-4 footer-social wow fadeInUp">
-                    	<h4>We're Social</h4>
+                    	<h4>ソーシャルメディア</h4>
                     	<p>
 	                    	<a href="#"><i class="fa fa-facebook"></i></a> 
 							<a href="#"><i class="fa fa-twitter"></i></a>  
@@ -445,13 +444,13 @@
 	            </div>
 	            <div class="row">
            			<div class="col-sm-6 footer-copyright">
-                    	&copy; All right reserved by <a href="">xxxxxxx</a>
+                    	&copy; All right reserved by <a href="">TIMELAG Inc.</a>
                     </div>
            			<div class="col-sm-6 footer-menu">
                     	<ul>
                     		<li><a class="scroll-link" href="#top-content">トップ</a></li>
 							<li><a href="#">利用規約</a></li>
-							<li><a href="#">個人情報の取扱</a></li>
+							<li><a href="#">個人情報</a></li>
 						</ul>
                     </div>
            		</div>
