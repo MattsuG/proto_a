@@ -18,44 +18,42 @@
         <div class="sidebar-collapse">
             <ul class="nav metismenu" id="side-menu">
                 <li class="nav-header">
-                    <div class="dropdown profile-element"> <span>
-                        <img alt="image" class="img-circle" src="{{{asset('/assets/img/about/1.jpg')}}}" />
-                    </span>
-                    <a class="dropdown-toggle" href="#">
-                        <span class="clear"> 
-                            <span class="block m-t-xs"> 
-                                <strong class="font-bold">お名前</strong>
-                            </span> 
-                            <span class="text-muted text-xs block">職業とか自己紹介など。長い文章をここに書いたらどうらなるかな。職業とか自己紹介など。長い文章をここに書いたらどうらなるかな。職業とか自己紹介など。長い文章をここに書いたらどうらなるかな。職業とか自己紹介など。長い文章をここに書いたらどうらなるかな。</span>
+                    <div class="dropdown profile-element">                         
+                            <a href="/"><img alt="image" class="img" src="{{{asset('/assets/img/plus.png')}}}" width="25px" height="50px" /></a>
+                    </div>
+                    <div class="dropdown profile-element"> 
+                        <span>
+                            <img alt="image" class="img-circle" src="{{{asset('/assets/img/about/1.jpg')}}}" />
                         </span>
-                    </a>                        
-                </div>
-                <div class="dropdown profile-element">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                        <b class="caret"></b></span></span></a>
-                        <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                            <li><a href="profile.html">プロフィール編集</a></li>
-                            <li><a href="profile.html">パスワード編集</a></li>
-                            <li><a href="profile.html">Email編集</a></li>
-                            <li><a href="contacts.html">メッセージBOX</a></li>   
-                            <li class="divider"></li>
-                            <li><a href="login.html">ログアウト</a></li>
-                        </ul>
-                    </div>
+                        <a class="dropdown-toggle" href="#">
+                            <span class="clear"> 
+                                <span class="block m-t-xs"> 
+                                    <strong class="font-bold">お名前</strong>
+                                </span> 
+                                <span class="text-muted text-xs block">職業とか自己紹介など。長い文章をここに書いたらどうらなるかな。職業とか自己紹介など。長い文章をここに書いたらどうらなるかな。職業とか自己紹介など。長い文章をここに書いたらどうらなるかな。職業とか自己紹介など。長い文章をここに書いたらどうらなるかな。</span>
+                            </span>
+                        </a>                        
+                    </div>                    
                     <div class="logo-element">
-                        +ヒト
+                        <a href="/"><img alt="image" class="img" src="{{{asset('/assets/img/plus.png')}}}" width="25px" height="50px" /></a>
                     </div>
-                </li>
-                <li>
-                    <a href="add"><i class="fa fa-plus"></i> <span class="nav-label">トーク作成</span></a>
                 </li>
                 <li>
                     <a href="#"><i class="fa fa-pencil"></i> <span class="nav-label">アカウント編集</span><span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
                         <li><a href="graph_flot.html">プロフィール編集</a></li>
                         <li><a href="graph_morris.html">Email編集</a></li>
-                        <li><a href="graph_rickshaw.html">パスワード編集</a></li>                       
+                        <li><a href="graph_rickshaw.html">パスワード編集</a></li>
                     </ul>
+                </li>
+                <li>
+                    <a href="add"><i class="fa fa-bullhorn"></i> <span class="nav-label">トーク作成</span></a>
+                </li>
+                <li>
+                    <a href="add"><i class="fa fa-calendar"></i> <span class="nav-label">予約済トーク</span></a>
+                </li>
+                <li>
+                    <a href="add"><i class="fa fa-history"></i> <span class="nav-label">履歴</span></a>
                 </li>                
             </ul>
         </div>
@@ -65,13 +63,14 @@
             <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
                 <div class="navbar-header">
                     <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+
                 </div>
                 <ul class="nav navbar-top-links navbar-right">
                     <li>
                         <span class="m-r-sm text-muted welcome-message">トーク詳細ページへようこそ</span>
                     </li>
                     <li>
-                        <a href="/">
+                        <a  class="dropdown-toggle count-info" href="/">
                             <i class="fa fa-home"></i>
                         </a>
                     </li>
@@ -174,7 +173,7 @@
 
                     <li>
                         <a href="login.html">
-                            <i class="fa fa-sign-out"></i> Log out
+                            <i class="fa fa-sign-out"></i> ログアウト
                         </a>
                     </li>
                 </ul>
@@ -197,82 +196,101 @@
                 </ol>
             </div>
         </div>
-
-        <div class="wrapper wrapper-content">
-            <div class="row animated fadeInRight">
-                <div class="col-md-4">
-                    <div class="ibox float-e-margins">
-                        <div class="ibox-title">
-                            <h5>話し手プロフィール</h5>
+        <div class="row white-bg animated fadeInRight">
+            <div class="col-md-4">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>話し手プロフィール</h5>
+                    </div>
+                    <div>
+                        <div class="ibox-content no-padding border-left-right">
+                            <img alt="image" class="img-circle" src="{{{asset('/assets/img/backgrounds/3.jpg')}}}">
                         </div>
+                        <div class="ibox-content profile-content">
+                            <h4><strong>Monica Smith</strong></h4>
+                            <p><i class="fa fa-map-marker"></i> Riviera State 32/106</p>
+                            <h5>
+                                About me
+                            </h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.
+                            </p>
+
+                            <div class="user-button">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> メッセージを送る</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>トーク詳細</h5>
+                    </div>
+                    <div class="ibox-content">
+
                         <div>
-                            <div class="ibox-content no-padding border-left-right">
-                                <img alt="image" class="img-responsive" src="{{{asset('/assets/img/backgrounds/3.jpg')}}}">
-                            </div>
-                            <div class="ibox-content profile-content">
-                                <h4><strong>Monica Smith</strong></h4>
-                                <p><i class="fa fa-map-marker"></i> Riviera State 32/106</p>
-                                <h5>
-                                    About me
-                                </h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.
-                                </p>
-
-                                <div class="user-button">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> メッセージを送る</button>
-                                        </div>
+                            <div class="feed-activity-list">
+                                <div class="feed-element">
+                                    <h6>宇船</h6>
+                                    その船を漕いでゆけ お前の手で漕いでゆけ 
+                                    お前が消えて喜ぶ者に お前のオールをまかせるな 
+                                    <div class="photos">
+                                        <a target="_blank" href="http://24.media.tumblr.com/20a9c501846f50c1271210639987000f/tumblr_n4vje69pJm1st5lhmo1_1280.jpg"> <img alt="image" class="feed-photo" src="{{{asset('/assets/img/p1.jpg')}}}"></a>
+                                        <a target="_blank" href="http://37.media.tumblr.com/9afe602b3e624aff6681b0b51f5a062b/tumblr_n4ef69szs71st5lhmo1_1280.jpg"> <img alt="image" class="feed-photo" src="{{{asset('/assets/img/p3.jpg')}}}"></a>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="ibox float-e-margins">
-                        <div class="ibox-title">
-                            <h5>トーク詳細</h5>
-                        </div>
-                        <div class="ibox-content">
+                                <div class="feed-element">
+                                    <h6>詳細</h6>
+                                    その船は今どこに ふらふらと浮かんでいるのか 
+                                    その船は今どこで ボロボロで進んでいるのか 
+                                    流されまいと逆らいながら 
+                                    船は挑み 船は傷み 
+                                    すべての水夫が恐れをなして逃げ去っても 
+                                    その船を漕いでゆけ お前の手で漕いでゆけ 
+                                    お前が消えて喜ぶ者に お前のオールをまかせるな 
 
-                            <div>
-                                <div class="feed-activity-list">
-                                    <div class="feed-element">
-                                        <h6>タイトル</h6>
-                                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                                        <div class="photos">
-                                            <a target="_blank" href="http://24.media.tumblr.com/20a9c501846f50c1271210639987000f/tumblr_n4vje69pJm1st5lhmo1_1280.jpg"> <img alt="image" class="feed-photo" src="{{{asset('/assets/img/p1.jpg')}}}"></a>
-                                            <a target="_blank" href="http://37.media.tumblr.com/9afe602b3e624aff6681b0b51f5a062b/tumblr_n4ef69szs71st5lhmo1_1280.jpg"> <img alt="image" class="feed-photo" src="{{{asset('/assets/img/p3.jpg')}}}"></a>
-                                        </div>
-                                    </div>
-                                    <div class="feed-element">
-                                        <h6>詳細</h6>
-                                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                                    </div>
-                                    <div class="feed-element">
-                                        <h6>価格</h6>
-                                        xxxxxxxxxxxxxxxxxxxxxxxx  
-                                    </div>
+                                    その船は自らを 宙船と忘れているのか 
+                                    その船は舞い上がる その時を忘れているのか 
+                                    地平の果て 水平の果て 
+                                    そこが船の離陸地点 
+                                    すべての港が灯りを消して黙りこんでも 
+                                    その船を漕いでゆけ お前の手で漕いでゆけ 
+                                    お前が消えて喜ぶ者に お前のオールをまかせるな 
+
+                                    何の試験の時間なんだ 何を裁く秤なんだ 
+                                    何を狙って付き合うんだ 何が船を動かすんだ 
+                                    何の試験の時間なんだ 何を裁く秤なんだ 
+                                    何を狙って付き合うんだ 何が船を動かすんだ 
+                                    その船を漕いでゆけ お前の手で漕いでゆけ 
+                                    お前が消えて喜ぶ者に お前のオールをまかせるな 
+                                    その船を漕いでゆけ お前の手で漕いでゆけ 
+                                    お前が消えて喜ぶ者に お前のオールをまかせるな
                                 </div>
-
-                                <button class="btn btn-primary btn-block m">予約リクエスト</button>
-
+                                <div class="feed-element">
+                                    <h6>価格</h6>
+                                    xxxxxxxxxxxxxxxxxxxxxxxx  
+                                </div>
                             </div>
 
-                        </div>
-                    </div>
+                            <button class="btn btn-primary btn-block m">予約リクエスト</button>
 
+                        </div>
+
+                    </div>
                 </div>
+
             </div>
         </div>
         <div class="row">
             <div class="footer">                       
                 <div>
-                    <strong>Copyright</strong> Example Company &copy; 2014-2015
+                    <strong>Copyright</strong> TIMELAG Inc. &copy; 2016
                 </div>
             </div>
         </div>
