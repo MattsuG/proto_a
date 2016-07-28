@@ -14,6 +14,11 @@ class MentorController extends Controller
  	return view("mentor.index");
   }
 
+  public function show() 
+  {
+  return view("mentor.show");
+  }
+
   public function store(Request $request)
   {
     $this->validate($request, [
