@@ -32,33 +32,27 @@
                                 <span class="text-muted text-xs block">職業とか自己紹介など。長い文章をここに書いたらどうらなるかな。職業とか自己紹介など。長い文章をここに書いたらどうらなるかな。職業とか自己紹介など。長い文章をここに書いたらどうらなるかな。職業とか自己紹介など。長い文章をここに書いたらどうらなるかな。</span>
                             </span>
                         </a>                        
-                    </div>
-                    <div class="dropdown profile-element">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <b class="caret"></b></span></span></a>
-                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                                <li><a href="profile.html">プロフィール編集</a></li>
-                                <li><a href="profile.html">パスワード編集</a></li>
-                                <li><a href="profile.html">Email編集</a></li>
-                                <li><a href="contacts.html">メッセージBOX</a></li>   
-                                <li class="divider"></li>
-                                <li><a href="login.html">ログアウト</a></li>
-                            </ul>
-                    </div>
+                    </div>                    
                     <div class="logo-element">
                         <a href="/"><img alt="image" class="img" src="{{{asset('/assets/img/plus.png')}}}" width="25px" height="50px" /></a>
                     </div>
-                </li>
-                <li>
-                    <a href="add"><i class="fa fa-bullhorn"></i> <span class="nav-label">トーク作成</span></a>
                 </li>
                 <li>
                     <a href="#"><i class="fa fa-pencil"></i> <span class="nav-label">アカウント編集</span><span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
                         <li><a href="graph_flot.html">プロフィール編集</a></li>
                         <li><a href="graph_morris.html">Email編集</a></li>
-                        <li><a href="graph_rickshaw.html">パスワード編集</a></li>                       
+                        <li><a href="graph_rickshaw.html">パスワード編集</a></li>
                     </ul>
+                </li>
+                <li>
+                    <a href="add"><i class="fa fa-bullhorn"></i> <span class="nav-label">トーク作成</span></a>
+                </li>
+                <li>
+                    <a href="add"><i class="fa fa-calendar"></i> <span class="nav-label">予約済トーク</span></a>
+                </li>
+                <li>
+                    <a href="add"><i class="fa fa-history"></i> <span class="nav-label">履歴</span></a>
                 </li>                
             </ul>
         </div>
@@ -214,14 +208,14 @@
             <div class="col-sm-4 pricing-box pricing-box-best wow fadeInDown">
                 <div class="pricing-box-inner">
                     <div class="pricing-box-price">
-                    <img src="img/headphones.jpg" alt="">
+                    <a href="/mentor/show" style="color:#000;text-decoration:none"><img src="img/headphones.jpg" alt="">
                     </div>
                     <h3>タイトル</h3>
                     <h4>概要を記入。文章が長くなった場合はどうなるか。文章が長くなった場合はどうなるか文章が長くなった場合はどうなるか。</h4>
                     <div class="pricing-box-features">
                         <ul>
                             <li>カテゴリ</li>
-                            <li>価格</li>
+                            <li>価格</li></a>
                             <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i>メッセージ</button></a></li>                           
                         </ul>
                     </div>
