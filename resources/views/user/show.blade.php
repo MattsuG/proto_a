@@ -1,7 +1,7 @@
 
 @extends('common.layout')
 @section('TitleAndCss')
-<title>show.php | トーク詳細</title>
+<title>show.php | ユーザー詳細</title>
 
 <link rel="stylesheet" href="{{{asset('/assets/bootstrap/css/bootstrap.min.css')}}}">
 <link rel="stylesheet" href="{{{asset('/assets/font-awesome/css/font-awesome.min.css')}}}">
@@ -67,7 +67,7 @@
                 </div>
                 <ul class="nav navbar-top-links navbar-right">
                     <li>
-                        <span class="m-r-sm text-muted welcome-message">トーク詳細ページへようこそ</span>
+                        <span class="m-r-sm text-muted welcome-message">ユーザー詳細ページへようこそ</span>
                     </li>
                     <li>
                         <a  class="dropdown-toggle count-info" href="/mentor">
@@ -182,13 +182,10 @@
         </div>
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-9ƒ">
-                <h2>トーク詳細</h2>
-                <ol class="breadcrumb">
-                    <li>
-                        <a href="/mentor">トーク一覧</a>
-                    </li>
+                <h2>ユーザー詳細</h2>
+                <ol class="breadcrumb">                  
                     <li class="active">
-                        <strong>トーク詳細</strong>
+                        <strong>ユーザー詳細</strong>
                     </li>
                 </ol>
             </div>
@@ -197,7 +194,7 @@
             <div class="col-md-4">
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
-                        <h5>話し手プロフィール</h5>
+                        <h5>Hayato Matsuzawaさんのプロフィール</h5>
                     </div>
                     <div>
                         <div class="ibox-content no-padding border-left-right">
@@ -210,8 +207,9 @@
                                 自己紹介
                             </h5>
                             <p>
-                                スポーツアパレルメーカー、デサントにて機能性の高いスポーツウエア、ライフスタイルウエアの欧州営業を担当。２０１５年から新規リテール事業の立ち上げメンバーとして海外出向中。大学卒業までアルペンスキーに熱中し、その後アメリカコロラド州の大学院でスポーツ経営学を学ぶ。帰国後現在の会社へ入る。<a href="/user/show">...詳細を見る</a>
+                                スポーツアパレルメーカー、デサントにて機能性の高いスポーツウエア、ライフスタイルウエアの欧州営業を担当。２０１５年から新規リテール事業の立ち上げメンバーとして海外出向中。大学卒業までアルペンスキーに熱中し、その後アメリカコロラド州の大学院でスポーツ経営学を学ぶ。帰国後現在の会社へ入る。
                             </p>
+
                             <div class="user-button">
                                 <div class="row">
                                     <div class="col-md-12">
@@ -226,55 +224,66 @@
             <div class="col-md-8">
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
-                        <h5>トーク詳細</h5>
+                        <h5>プロフィール詳細</h5>
                     </div>
                     <div class="ibox-content">
 
                         <div>
                             <div class="feed-activity-list">
                                 <div class="feed-element">
-                                    <h6>タイトル</h6>
-                                    宇船 
-                                    <div class="photos">
-                                        <img alt="image" class="feed-photo" src="{{{asset('/assets/img/p1.jpg')}}}">
-                                        <img alt="image" class="feed-photo" src="{{{asset('/assets/img/p3.jpg')}}}">
-                                    </div>
+                                    <h6>やってみたいこと</h6>
+                                    元々教育分野に興味がある。学生が多様な進路を選択できる仕組み作りに取り組みたい。受験、就活などが現在関心のあるトピック。
                                 </div>
                                 <div class="feed-element">
-                                    <h6>詳細</h6>
-                                    その船は今どこに ふらふらと浮かんでいるのか 
-                                    その船は今どこで ボロボロで進んでいるのか 
-                                    流されまいと逆らいながら 
-                                    船は挑み 船は傷み 
-                                    すべての水夫が恐れをなして逃げ去っても 
-                                    その船を漕いでゆけ お前の手で漕いでゆけ 
-                                    お前が消えて喜ぶ者に お前のオールをまかせるな 
+                                    <h6>現職</h6>
+                                    Descente Global Retail Ltd.
+                                    <h6>ポジション</h6>
+                                        International Sales, HR, Buying MD
+                                    <h6>業務内容</h6>
+                                        DESCENTE ALLTERRAIN Whole sale business 
+                                        -Whole sale business operation guideline set-up, business term revision
+                                        -Account management: order management, collecting payments, participation in multiple sales activities
+                                        -Business develop plan establishment
 
-                                    その船は自らを 宙船と忘れているのか 
-                                    その船は舞い上がる その時を忘れているのか 
-                                    地平の果て 水平の果て 
-                                    そこが船の離陸地点 
-                                    すべての港が灯りを消して黙りこんでも 
-                                    その船を漕いでゆけ お前の手で漕いでゆけ 
-                                    お前が消えて喜ぶ者に お前のオールをまかせるな 
+                                        HR: UK Store Launching Preparation
+                                        -Recruitment agency contact, Employment candidate search, Employment process handling 
+                                        -UK specific employment related issues research, payroll, labor law, benefit etc. 
 
-                                    何の試験の時間なんだ 何を裁く秤なんだ 
-                                    何を狙って付き合うんだ 何が船を動かすんだ 
-                                    何の試験の時間なんだ 何を裁く秤なんだ 
-                                    何を狙って付き合うんだ 何が船を動かすんだ 
-                                    その船を漕いでゆけ お前の手で漕いでゆけ 
-                                    お前が消えて喜ぶ者に お前のオールをまかせるな 
-                                    その船を漕いでゆけ お前の手で漕いでゆけ 
-                                    お前が消えて喜ぶ者に お前のオールをまかせるな
+                                        Product preparation: UK Store Launching Preparation 
+                                        -Product buying, attending conventions, order placement,, reorder, pricing, size assortment
+                                        -Product education to sales staff 
                                 </div>
                                 <div class="feed-element">
-                                    <h6>価格</h6>
-                                    xxxxxxxxxxxxxxxxxxxxxxxx  
+                                    <h6>前職</h6>
+                                    株式会社デサント
+                                    <h6>ポジション</h6>
+                                        Global Marketing, International Sales
+                                    <h6>業務内容</h6>
+                                        In charge of Descente brand distribution sales in European and western/central Asian markets with three collections; Ski, Run&Cycling, and Allterrain. 
+
+                                        -Communication and development marketing strategy with 15 distributors in respective market
+                                        -Pricing strategy for the collections cooperating merchandisers and designers
+                                        -Financial analysis of potential distributors
+                                        -Contract negotiation 
+                                        -Promotional uniform supply to the teams in Europe
+                                </div>
+                                <div class="feed-element">
+                                    <h6>最終学歴</h6>
+                                    University of Northern Colorado
+                                    <h6>学部・学科</h6>
+                                        Sport Administration
+                                    <h6>在籍期間</h6>
+                                        2011-2012
+                                </div>
+                                  <div class="feed-element">
+                                    <h6>その他学歴</h6>
+                                    北海道教育大学旭川校
+                                    <h6>学部・学科</h6>
+                                    保健体育科
+                                    <h6>在籍期間</h6>
+                                        2005-2009
                                 </div>
                             </div>
-
-                            <button class="btn btn-primary btn-block m">予約リクエスト</button>
-
                         </div>
 
                     </div>

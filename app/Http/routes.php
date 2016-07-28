@@ -24,3 +24,7 @@
 	Route::get('join/signup', function () {
 	    return view('join/signup');
 	});
+
+	Route::get('user/show', function () {
+	    return view('user/show');
+	});
