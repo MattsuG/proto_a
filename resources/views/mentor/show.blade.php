@@ -19,7 +19,7 @@
             <ul class="nav metismenu" id="side-menu">
                 <li class="nav-header">
                     <div class="dropdown profile-element">                         
-                            <a href="/"><img alt="image" class="img" src="{{{asset('/assets/img/plus.png')}}}" width="25px" height="50px" /></a>
+                            <a href="/mentor"><img alt="image" class="img" src="{{{asset('/assets/img/plus.png')}}}" width="25px" height="50px" /></a>
                     </div>
                     <div class="dropdown profile-element"> 
                         <span>
@@ -28,9 +28,9 @@
                         <a class="dropdown-toggle" href="#">
                             <span class="clear"> 
                                 <span class="block m-t-xs"> 
-                                    <strong class="font-bold">お名前</strong>
+                                    <strong class="font-bold">松澤隼人</strong>
                                 </span> 
-                                <span class="text-muted text-xs block">職業とか自己紹介など。長い文章をここに書いたらどうらなるかな。職業とか自己紹介など。長い文章をここに書いたらどうらなるかな。職業とか自己紹介など。長い文章をここに書いたらどうらなるかな。職業とか自己紹介など。長い文章をここに書いたらどうらなるかな。</span>
+                                <span class="text-muted text-xs block">スポーツメーカーを退職後、大阪にて教育系ウェブサービスの立ち上げ準備中。2016年4月から6月までセブ島留学をしてプログラミングを学び、その時のルームメートと個人間で進路情報をシェアできるサービスを構築中。</span>
                             </span>
                         </a>                        
                     </div>                    
@@ -70,7 +70,7 @@
                         <span class="m-r-sm text-muted welcome-message">トーク詳細ページへようこそ</span>
                     </li>
                     <li>
-                        <a  class="dropdown-toggle count-info" href="/">
+                        <a  class="dropdown-toggle count-info" href="/mentor">
                             <i class="fa fa-home"></i>
                         </a>
                     </li>
@@ -185,9 +185,6 @@
                 <h2>トーク詳細</h2>
                 <ol class="breadcrumb">
                     <li>
-                        <a href="/">ホーム</a>
-                    </li>
-                    <li>
                         <a href="/mentor">トーク一覧</a>
                     </li>
                     <li class="active">
@@ -207,13 +204,13 @@
                             <img alt="image" class="img-circle" src="{{{asset('/assets/img/backgrounds/3.jpg')}}}">
                         </div>
                         <div class="ibox-content profile-content">
-                            <h4><strong>Monica Smith</strong></h4>
-                            <p><i class="fa fa-map-marker"></i> Riviera State 32/106</p>
+                            <h4><strong>Hayato Matsuzawa</strong></h4>
+                            <p><i class="fa fa-map-marker"></i> Seoul, S.Korea</p>
                             <h5>
-                                About me
+                                自己紹介
                             </h5>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.
+                                スポーツアパレルメーカー、デサントにて機能性の高いスポーツウエア、ライフスタイルウエアの欧州営業を担当。２０１５年から新規リテール事業の立ち上げメンバーとして海外出向中。大学卒業までアルペンスキーに熱中し、その後アメリカコロラド州の大学院でスポーツ経営学を学ぶ。帰国後現在の会社へ入る。
                             </p>
 
                             <div class="user-button">
@@ -237,12 +234,11 @@
                         <div>
                             <div class="feed-activity-list">
                                 <div class="feed-element">
-                                    <h6>宇船</h6>
-                                    その船を漕いでゆけ お前の手で漕いでゆけ 
-                                    お前が消えて喜ぶ者に お前のオールをまかせるな 
+                                    <h6>タイトル</h6>
+                                    宇船 
                                     <div class="photos">
-                                        <a target="_blank" href="http://24.media.tumblr.com/20a9c501846f50c1271210639987000f/tumblr_n4vje69pJm1st5lhmo1_1280.jpg"> <img alt="image" class="feed-photo" src="{{{asset('/assets/img/p1.jpg')}}}"></a>
-                                        <a target="_blank" href="http://37.media.tumblr.com/9afe602b3e624aff6681b0b51f5a062b/tumblr_n4ef69szs71st5lhmo1_1280.jpg"> <img alt="image" class="feed-photo" src="{{{asset('/assets/img/p3.jpg')}}}"></a>
+                                        <img alt="image" class="feed-photo" src="{{{asset('/assets/img/p1.jpg')}}}">
+                                        <img alt="image" class="feed-photo" src="{{{asset('/assets/img/p3.jpg')}}}">
                                     </div>
                                 </div>
                                 <div class="feed-element">
