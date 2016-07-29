@@ -32,3 +32,7 @@
 	Route::get('user/mypage', function () {
 	    return view('user/mypage');
 	});
+
+	Route::get('user/edit', function () {
+	    return view('user/edit');
+	});
