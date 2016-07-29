@@ -28,3 +28,7 @@
 	Route::get('user/show', function () {
 	    return view('user/show');
 	});
+
+	Route::get('user/mypage', function () {
+	    return view('user/mypage');
+	});
