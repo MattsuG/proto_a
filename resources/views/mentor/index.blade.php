@@ -18,7 +18,7 @@
             <ul class="nav metismenu" id="side-menu">
                 <li class="nav-header">
                     <div class="dropdown profile-element">                         
-                            <a href="/"><img alt="image" class="img" src="{{{asset('/assets/img/plus.png')}}}" width="25px" height="50px" /></a>
+                            <a href="/mentor"><img alt="image" class="img" src="{{{asset('/assets/img/plus.png')}}}" width="25px" height="50px" /></a>
                     </div>
                     <div class="dropdown profile-element"> 
                         <span>
@@ -34,13 +34,13 @@
                         </a>                        
                     </div>                    
                     <div class="logo-element">
-                        <a href="/"><img alt="image" class="img" src="{{{asset('/assets/img/plus.png')}}}" width="25px" height="50px" /></a>
+                        <a href="/mentor"><img alt="image" class="img" src="{{{asset('/assets/img/plus.png')}}}" width="25px" height="50px" /></a>
                     </div>
                 </li>
-                <li>
+                 <li>
                     <a href="#"><i class="fa fa-pencil"></i> <span class="nav-label">アカウント編集</span><span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
-                        <li><a href="graph_flot.html">プロフィール編集</a></li>
+                        <li><a href="/user/edit">プロフィール編集</a></li>
                         <li><a href="graph_morris.html">Email編集</a></li>
                         <li><a href="graph_rickshaw.html">パスワード編集</a></li>
                     </ul>
@@ -49,11 +49,8 @@
                     <a href="add"><i class="fa fa-bullhorn"></i> <span class="nav-label">トーク作成</span></a>
                 </li>
                 <li>
-                    <a href="add"><i class="fa fa-calendar"></i> <span class="nav-label">予約済トーク</span></a>
-                </li>
-                <li>
-                    <a href="add"><i class="fa fa-history"></i> <span class="nav-label">履歴</span></a>
-                </li>                
+                    <a href="/user/mypage"><i class="fa fa-calendar"></i> <span class="nav-label">マイページ</span></a>
+                </li>                 
             </ul>
         </div>
     </nav>
@@ -69,7 +66,7 @@
                         <span class="m-r-sm text-muted welcome-message">トーク一覧ページへようこそ</span>
                     </li>
                     <li>
-                        <a  class="dropdown-toggle count-info" href="/">
+                        <a  class="dropdown-toggle count-info" href="/mentor">
                             <i class="fa fa-home"></i>
                         </a>
                     </li>
@@ -183,9 +180,6 @@
             <div class="col-lg-9ƒ">
                 <h2>トーク一覧</h2>
                 <ol class="breadcrumb">
-                    <li>
-                        <a href="/">ホーム</a>
-                    </li>
                     <li class="active">
                         <strong>トーク一覧</strong>
                     </li>

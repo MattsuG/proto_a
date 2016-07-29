@@ -38,7 +38,7 @@
                         <a href="/"><img alt="image" class="img" src="{{{asset('/assets/img/plus.png')}}}" width="25px" height="50px" /></a>
                     </div>
                 </li>
-                <li>
+                 <li>
                     <a href="#"><i class="fa fa-pencil"></i> <span class="nav-label">アカウント編集</span><span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
                         <li><a href="/user/edit">プロフィール編集</a></li>
@@ -50,11 +50,8 @@
                     <a href="add"><i class="fa fa-bullhorn"></i> <span class="nav-label">トーク作成</span></a>
                 </li>
                 <li>
-                    <a href="add"><i class="fa fa-calendar"></i> <span class="nav-label">予約済トーク</span></a>
-                </li>
-                <li>
-                    <a href="add"><i class="fa fa-history"></i> <span class="nav-label">履歴</span></a>
-                </li>                
+                    <a href="/user/mypage"><i class="fa fa-calendar"></i> <span class="nav-label">マイページ</span></a>
+                </li>           
             </ul>
         </div>
     </nav>
