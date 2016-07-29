@@ -215,9 +215,9 @@
                                     <a href="#" class="pull-left">
                                         <img alt="image" class="img-circle" src="img/a2.jpg">
                                     </a>
-                                    <div class="media-body ">
+                                    <div class="media-body">
                                         <small class="pull-right">2h ago</small>
-                                        <strong>Kon Rikuto</strong> さんからのメッセージ <br>
+                                        <a href="/user/message"><strong>Kon Rikuto</strong> さんからのメッセージ <br></a>
                                         <small class="text-muted">今日 2:10 pm - 12.06.2014</small>
                                         <div class="well">
                                             閉ざされたドアの向こうに新しい何かが待っていて
@@ -231,9 +231,9 @@
                                     <a href="#" class="pull-left">
                                         <img alt="image" class="img-circle" src="img/a2.jpg">
                                     </a>
-                                    <div class="media-body ">
+                                    <div class="media-body">
                                         <small class="pull-right">2h ago</small>
-                                        <strong>Kon Rikuto</strong> さんからのメッセージ <br>
+                                        <a href="/user/message"><strong>Kon Rikuto</strong> さんからのメッセージ <br></a>
                                         <small class="text-muted">今日 2:10 pm - 12.06.2014</small>
                                         <div class="well">
                                             閉ざされたドアの向こうに新しい何かが待っていて
@@ -247,9 +247,9 @@
                                     <a href="#" class="pull-left">
                                         <img alt="image" class="img-circle" src="img/a2.jpg">
                                     </a>
-                                    <div class="media-body ">
+                                    <div class="media-body">
                                         <small class="pull-right">2h ago</small>
-                                        <strong>Kon Rikuto</strong> さんからのメッセージ <br>
+                                        <a href="/user/message"><strong>Kon Rikuto</strong> さんからのメッセージ <br></a>
                                         <small class="text-muted">今日 2:10 pm - 12.06.2014</small>
                                         <div class="well">
                                             閉ざされたドアの向こうに新しい何かが待っていて
@@ -263,9 +263,9 @@
                                     <a href="#" class="pull-left">
                                         <img alt="image" class="img-circle" src="img/a2.jpg">
                                     </a>
-                                    <div class="media-body ">
+                                    <div class="media-body">
                                         <small class="pull-right">2h ago</small>
-                                        <strong>Kon Rikuto</strong> さんからのメッセージ <br>
+                                        <a href="/user/message"><strong>Kon Rikuto</strong> さんからのメッセージ <br></a>
                                         <small class="text-muted">今日 2:10 pm - 12.06.2014</small>
                                         <div class="well">
                                             閉ざされたドアの向こうに新しい何かが待っていて
