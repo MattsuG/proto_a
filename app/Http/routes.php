@@ -36,3 +36,7 @@
 	Route::get('user/edit', function () {
 	    return view('user/edit');
 	});
+
+	Route::get('user/message', function () {
+	    return view('user/message');
+	});
